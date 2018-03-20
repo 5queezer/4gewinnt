@@ -1,0 +1,83 @@
+.back {
+	position: relative;
+	width: 448px;
+	height: 448px;
+	padding: 0;
+}
+
+.handle {
+	width:64px;
+	height:64px;
+	float:left;
+	opacity: 0.5;
+	font-size: larger;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.handle:hover {
+	background-color: LightGoldenRodYellow ;
+	border: 1px solid Moccasin ;
+}
+
+#grid {
+	width: 100%; /* sieben spalten */
+	height: 384px; /* sechs reihen */
+	background-image: url("../images/maske.png");
+	border-radius: 20px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	z-index: 99;
+}
+
+.disk {
+	position: absolute;
+	width:64px;
+	height:64px;
+	left: 0;
+	border-radius: 50%;
+
+	box-sizing: border-box;
+	z-index: 0;
+}
+
+.disk.red {
+	background-color: tomato;
+	border: 8px solid antiquewhite;
+}
+
+.disk.blue {
+	background-color: slateblue;
+	border: 8px solid lightcyan;
+}
+
+#info {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+#info span{
+	padding: 0.5rem;
+}
+
+.blue {
+	 text-transform: uppercase;
+	 background-color: slateblue;
+	 color: white;
+}
+
+.red {
+	text-transform: uppercase;
+	background-color: tomato;
+	color: white;
+}
+
+a.button {
+	width: 60%;
+}
+
+.resetbutton {
+	text-align: center;
+}

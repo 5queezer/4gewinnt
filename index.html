@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+<title>4gewinnt</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" type="text/css" href="css/normalize.css" /> 
+<link rel="stylesheet" type="text/css" href="css/skeleton.css" /> 
+<link rel="stylesheet" type="text/css" href="css/4gewinnt.css" /> 
+<link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+
+<body>
+<div class="container">
+	<header class="row">
+		<div class="twelve columns">
+			<h1>Vier Gewinnt</h1>
+		</div>
+	</header>
+	<div class="row">
+		<div class="offset-by-three six columns">
+			<div class="back" id="back">
+				<div class="handle"></div>
+				<div class="handle"></div>
+				<div class="handle"></div>
+				<div class="handle"></div>
+				<div class="handle"></div>
+				<div class="handle"></div>
+				<div class="handle"></div>
+				<div id="grid"></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="twelve columns">
+			<p id="info">Infotext</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="offset-by-three six columns resetbutton">
+			<a class="button button-primary" onClick="init();">Zurücksetzen</a>
+		</div>
+	</div>
+	<footer class="row">	
+		<div class="twelve columns">
+			&copy; Christian Pojoni 2015 <a href="http://www.szf.at" target="_blank">SZF</a>
+		</div>
+	</footer>
+</div>
+
+<script language="javascript" type="text/javascript" src="js/4gewinnt.js"></script>
+</body>
+</html>
